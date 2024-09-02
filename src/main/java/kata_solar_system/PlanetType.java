@@ -1,5 +1,7 @@
 package kata_solar_system;
 
 public enum PlanetType {
-    GASEOUS, TERRESTRIAL, DWARF
+    TERRESTRIAL,
+    GAS_GIANT,
+    DWARF
 }

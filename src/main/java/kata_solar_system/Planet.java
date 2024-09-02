@@ -1,6 +1,7 @@
 package kata_solar_system;
 
 public class Planet {
+    public static final String PlanetType = null;
     private String name;
     private int numberOfSatellites;
     private double mass;
@@ -21,6 +22,7 @@ public class Planet {
         this.visibleToTheEye = visibleToTheEye;
     }
 
+    // Getter methods
     public String getName() {
         return name;
     }
